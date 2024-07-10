@@ -15,7 +15,7 @@
    ```
    cd memoryanalyzersamples
    ```
-3. Build (assuming Apache Maven and Java installed and on `PATH`):
+3. Build (assuming [Apache Maven](https://maven.apache.org/download.cgi) and [Java](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/) on `PATH`):
    ```
    mvn clean install
    ```
