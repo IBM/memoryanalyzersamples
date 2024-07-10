@@ -2,9 +2,9 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension point="org.eclipse.mat.report.query">
-      <query impl="com.example.matsample.SampleQuery" />
+      <query impl="com.example.matsample.queries.SampleQuery" />
    </extension>
    <extension point="org.eclipse.mat.api.nameResolver">
-      <resolver impl="com.example.matsample.SampleResolver" />
+      <resolver impl="com.example.matsample.resolvers.SampleResolver" />
    </extension>
 </plugin>
