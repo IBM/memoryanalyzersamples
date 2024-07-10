@@ -4,3 +4,9 @@
 
 * [Query](https://help.eclipse.org/latest/index.jsp?topic=/org.eclipse.mat.ui.help/doc/org_eclipse_mat_report_query.html)
 * [Name Resolver](https://help.eclipse.org/latest/index.jsp?topic=/org.eclipse.mat.ui.help/doc/org_eclipse_mat_api_nameResolver.html)
+
+## Development
+
+```
+mvn clean install
+```
