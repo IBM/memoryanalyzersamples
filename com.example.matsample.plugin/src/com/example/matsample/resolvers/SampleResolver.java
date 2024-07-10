@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-package com.example.matsample;
+package com.example.matsample.resolvers;
 
 import org.eclipse.mat.snapshot.extension.IClassSpecificNameResolver;
 import org.eclipse.mat.snapshot.extension.Subject;
