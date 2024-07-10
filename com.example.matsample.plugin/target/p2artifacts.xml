@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='com.example.matsample.plugin' version='0.1.0.202407102006'>
+  <artifact classifier='osgi.bundle' id='com.example.matsample.plugin' version='0.1.0.202407102026'>
     <properties size='9'>
       <property name='artifact.size' value='3780'/>
       <property name='download.size' value='3780'/>
-      <property name='download.checksum.sha-512' value='956bb1349abbfebfd89b614cb1fb3c7100f786b31d6c135b8f11b4bf48a5515591880cadba3f8f54cfbf079a41e85e5da3b559a179706d9e2a6093b887506675'/>
-      <property name='download.checksum.sha-1' value='31e6aa50fa6c2a8e1e2fef8333a664d29c2df536'/>
-      <property name='download.checksum.sha-256' value='cde97d0a0074e33149335228a0383eb78e2222cad3fa44581a5bf43df96367bc'/>
+      <property name='download.checksum.sha-512' value='56a1323c6977c65e2e5212c35639df785a65521b04ddd85957f499c674a4633f54b58d7a6e984518cc69ad23980bd4b4fc7d2b23cabbb4158a7ace9b1183da92'/>
+      <property name='download.checksum.sha-1' value='635aed2447ebe65ef03b4777120e941fb90c6a1e'/>
+      <property name='download.checksum.sha-256' value='e67b19751e2a846cfb7d42da733c729d0f366fa06aae17e265fe4001462c1d4d'/>
       <property name='maven-groupId' value='com.example'/>
       <property name='maven-artifactId' value='com.example.matsample.plugin'/>
       <property name='maven-version' value='0.1.0-SNAPSHOT'/>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='2'>
-  <unit id='com.example.matsample.feature.feature.group' version='0.1.0.202407102006' singleton='false'>
-    <update id='com.example.matsample.feature.feature.group' range='[0.0.0,0.1.0.202407102006)' severity='0'/>
+  <unit id='com.example.matsample.feature.feature.group' version='0.1.0.202407102026' singleton='false'>
+    <update id='com.example.matsample.feature.feature.group' range='[0.0.0,0.1.0.202407102026)' severity='0'/>
     <properties size='9'>
       <property name='org.eclipse.equinox.p2.name' value='Sample MAT Feature'/>
       <property name='org.eclipse.equinox.p2.description' value='Sample MAT Feature'/>
@@ -14,7 +14,7 @@
       <property name='maven-type' value='eclipse-feature'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.feature.feature.group' version='0.1.0.202407102006'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.feature.feature.group' version='0.1.0.202407102026'/>
     </provides>
     <requires size='3'>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mat.api' range='0.0.0'>
@@ -22,8 +22,8 @@
           (!(org.eclipse.equinox.p2.exclude.import=true))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.plugin' range='[0.1.0.202407102006,0.1.0.202407102006]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.feature.feature.jar' range='[0.1.0.202407102006,0.1.0.202407102006]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.plugin' range='[0.1.0.202407102026,0.1.0.202407102026]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.feature.feature.jar' range='[0.1.0.202407102026,0.1.0.202407102026]'>
         <filter>
           (org.eclipse.update.install.features=true)
         </filter>
@@ -39,7 +39,7 @@
       Copyright 2024 IBM Corp. All Rights Reserved.
     </copyright>
   </unit>
-  <unit id='com.example.matsample.feature.feature.jar' version='0.1.0.202407102006'>
+  <unit id='com.example.matsample.feature.feature.jar' version='0.1.0.202407102026'>
     <properties size='8'>
       <property name='org.eclipse.equinox.p2.name' value='Sample MAT Feature'/>
       <property name='org.eclipse.equinox.p2.description' value='Sample MAT Feature'/>
@@ -51,15 +51,15 @@
       <property name='maven-type' value='eclipse-feature'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.feature.feature.jar' version='0.1.0.202407102006'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.example.matsample.feature.feature.jar' version='0.1.0.202407102026'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-      <provided namespace='org.eclipse.update.feature' name='com.example.matsample.feature' version='0.1.0.202407102006'/>
+      <provided namespace='org.eclipse.update.feature' name='com.example.matsample.feature' version='0.1.0.202407102026'/>
     </provides>
     <filter>
       (org.eclipse.update.install.features=true)
     </filter>
     <artifacts size='1'>
-      <artifact classifier='org.eclipse.update.feature' id='com.example.matsample.feature' version='0.1.0.202407102006'/>
+      <artifact classifier='org.eclipse.update.feature' id='com.example.matsample.feature' version='0.1.0.202407102026'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>

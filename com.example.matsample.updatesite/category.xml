@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.example.matsample.feature_0.0.0.jar" id="com.example.matsample.feature" version="0.0.0">
+      <category name="MAT Samples"/>
+   </feature>
+   <category-def name="MAT Samples" label="MAT Samples"/>
+</site>

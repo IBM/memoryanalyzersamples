@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: com.example.matsample.plugin
 Bundle-SymbolicName: com.example.matsample.plugin;singleton:=true
-Bundle-Version: 0.1.0.202407102006
+Bundle-Version: 0.1.0.202407102026
 Bundle-Vendor: Example
 Require-Bundle: org.eclipse.mat.api
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"

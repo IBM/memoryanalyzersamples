@@ -20,11 +20,14 @@
   <modules>
     <module>com.example.matsample.plugin</module>
     <module>com.example.matsample.feature</module>
+    <module>com.example.matsample.targetdefinition</module>
+    <module>com.example.matsample.updatesite</module>
   </modules>
 
 	<repositories>
 		<repository>
 			<id>Eclipse</id>
+      <!-- Also update com.example.matsample.targetdefinition/com.example.matsample.targetdefinition.target -->
 			<url>https://download.eclipse.org/releases/2024-06/</url>
 			<layout>p2</layout>
 		</repository>
@@ -37,13 +40,13 @@
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<!--<target>
+					<target>
 						<artifact>
-							<groupId>org.eclipse.mat</groupId>
-							<artifactId>com.ibm.java.diagnostics.memory.analyzer.rcpbase</artifactId>
-							<version>1.15.0-SNAPSHOT</version>
+							<groupId>com.example</groupId>
+							<artifactId>com.example.matsample.targetdefinition</artifactId>
+							<version>0.1.0-SNAPSHOT</version>
 						</artifact>
-					</target>-->
+					</target>
 					<environments>
 						<environment>
 							<os>win32</os>
