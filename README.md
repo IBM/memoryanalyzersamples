@@ -26,7 +26,7 @@
 8. Select the new update site in the "Work with:" dropdown
 9. Check "MAT Samples" and finish the dialog
 
-### Loadding in Eclipse
+### Loading in Eclipse
 
 1. Install [Eclipse IDE for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/#node-63180)
 2. Help } Install New Software... } Work with: \*download.eclipse.org/releases\* } Performance, Profiling and Tracing Tools } Memory Analyzer
