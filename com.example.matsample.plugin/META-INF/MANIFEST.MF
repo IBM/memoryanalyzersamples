@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.example.matsample.plugin
+Bundle-SymbolicName: com.example.matsample.plugin;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Example
+Require-Bundle: org.eclipse.mat.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

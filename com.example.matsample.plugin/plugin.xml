@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.mat.report.query">
+      <query impl="com.example.matsample.SampleQuery" />
+   </extension>
+   <extension point="org.eclipse.mat.api.nameResolver">
+      <resolver impl="com.example.matsample.SampleResolver" />
+   </extension>
+</plugin>
