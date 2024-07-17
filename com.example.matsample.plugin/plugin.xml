@@ -3,6 +3,7 @@
 <plugin>
    <extension point="org.eclipse.mat.report.query">
       <query impl="com.example.matsample.queries.SampleQuery" />
+      <query impl="com.example.matsample.queries.SampleOQLQuery" />
    </extension>
    <extension point="org.eclipse.mat.api.nameResolver">
       <resolver impl="com.example.matsample.resolvers.SampleResolver" />
